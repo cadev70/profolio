@@ -1,0 +1,70 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "title": "3D Maze Quest",
+            "description": "A browser-based first/third-person 3D maze game where players navigate procedurally generated mazes across multiple biomes to reach the exit as quickly as possible.",
+            "category": "Game",
+            "technologies": ["JavaScript", "Three.js", "Vite"],
+            "url": "https://github.com/cadev70/maze"
+        },
+        {
+            "id": 2,
+            "title": "Basket News Today",
+            "description": "A React single-page application for aggregating and displaying basketball news with infinite scroll, a rotating breaking news banner, and mobile-responsive design.",
+            "category": "Web App",
+            "technologies": ["React", "JavaScript", "Tailwind CSS", "Vite"],
+            "url": "https://github.com/cadev70/news-spa"
+        },
+        {
+            "id": 3,
+            "title": "Basketball News Crawler",
+            "description": "A Node.js CLI tool that aggregates basketball news from Twitter, Instagram, Threads, and sports websites using multi-source crawling with scheduled automation.",
+            "category": "CLI Tool",
+            "technologies": ["TypeScript", "Node.js", "Playwright", "LowDB"],
+            "url": "https://github.com/cadev70/news-crawler"
+        },
+        {
+            "id": 4,
+            "title": "Svelte Tooltips",
+            "description": "A lightweight tooltip component library for Svelte using the action directive pattern, with configurable placement, arrow display, and full CSS variable customization.",
+            "category": "UI Library",
+            "technologies": ["TypeScript", "Svelte", "JavaScript"],
+            "url": "https://github.com/cadev70/svelte-tooltips"
+        }
+    ],
+    "zh": [
+        {
+            "id": 1,
+            "title": "3D 迷宮探險",
+            "description": "瀏覽器端第一/第三人稱 3D 迷宮遊戲，玩家在程序生成的多樣生態迷宮中導航，挑戰最快到達出口的紀錄。",
+            "category": "遊戲",
+            "technologies": ["JavaScript", "Three.js", "Vite"],
+            "url": "https://github.com/cadev70/maze"
+        },
+        {
+            "id": 2,
+            "title": "籃球新聞今日",
+            "description": "基於 React 的單頁應用，聚合並展示籃球新聞，支援無限捲動、輪播頭條橫幅與響應式設計。",
+            "category": "網頁應用",
+            "technologies": ["React", "JavaScript", "Tailwind CSS", "Vite"],
+            "url": "https://github.com/cadev70/news-spa"
+        },
+        {
+            "id": 3,
+            "title": "籃球新聞爬蟲",
+            "description": "Node.js CLI 工具，從 Twitter、Instagram、Threads 及運動新聞網站多源聚合籃球新聞，支援排程自動化爬取。",
+            "category": "命令列工具",
+            "technologies": ["TypeScript", "Node.js", "Playwright", "LowDB"],
+            "url": "https://github.com/cadev70/news-crawler"
+        },
+        {
+            "id": 4,
+            "title": "Svelte 提示框",
+            "description": "輕量化 Svelte 提示框元件庫，採用 action directive 模式，支援位置配置、箭頭顯示與完整 CSS 變數自訂。",
+            "category": "UI 元件庫",
+            "technologies": ["TypeScript", "Svelte", "JavaScript"],
+            "url": "https://github.com/cadev70/svelte-tooltips"
+        }
+    ]
+}
