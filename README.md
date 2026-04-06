@@ -8,7 +8,6 @@ A personal portfolio website built with Vue 3, featuring bilingual support (Engl
 - **Vite** — Build tool and dev server
 - **Vue Router** — Client-side routing
 - **Vue i18n** — Internationalization (en / zh-TW)
-- **VueUse** — Vue 3 composition utilities
 
 ## Features
 
@@ -16,7 +15,6 @@ A personal portfolio website built with Vue 3, featuring bilingual support (Engl
 - Dark / light theme with localStorage persistence
 - Responsive design (mobile-first)
 - Smooth page transitions and animations
-- Accessibility: semantic HTML, focus states, `prefers-reduced-motion` support
 
 ## Pages
 
@@ -55,11 +53,5 @@ src/
 ├── utils/          # Constants
 └── assets/         # Global styles and images
 public/
-└── projects.json   # Project data (bilingual)
+└── projects.json   # Project data (bilingual)d
 ```
-
-## Development
-
-This project uses [Kiro spec-driven development](https://kiro.dev). Feature development follows a 3-phase workflow: Requirements → Design → Tasks → Implementation.
-
-See `CLAUDE.md` for the full development workflow.
