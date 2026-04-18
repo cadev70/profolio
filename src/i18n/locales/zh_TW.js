@@ -22,7 +22,16 @@ export const message = {
         viewProject: "瀏覽專案",
         viewCode: "瀏覽程式碼",
         technologies: "使用技術",
-        viewAll: "瀏覽全部"
+        viewAll: "瀏覽全部",
+        categories: {
+            all: "全部",
+            webapp: "網頁應用",
+            dashboard: "儀表板",
+            mobileApp: "行動應用",
+            uiLib: "UI 元件庫",
+            game: "遊戲",
+            cliTool: "命令列工具"
+        }
     },
     about: {
         title: "關於我",

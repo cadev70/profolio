@@ -22,7 +22,16 @@ export const message = {
         viewProject: "View Project",
         viewCode: "View Code",
         technologies: "Technologies",
-        viewAll: "View All"
+        viewAll: "View All",
+        categories: {
+            all: "All",
+            webapp: "Web App",
+            dashboard: "Dashboard",
+            mobileApp: "Mobile App",
+            uiLib: "UI Library",
+            game: "Game",
+            cliTool: "CLI Tool"
+        }
     },
     about: {
         title: "About Me",

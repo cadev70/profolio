@@ -9,7 +9,7 @@ export function useProjects() {
         fetch('/projects.json')
             .then(r => r.json())
             .then(json => {
-                data.value = json
+                data.value = Array.isArray(json) ? json : []
                 loading.value = false
             })
     }
