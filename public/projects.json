@@ -53,5 +53,27 @@
         "category": "uiLib",
         "technologies": ["TypeScript", "Svelte", "JavaScript"],
         "url": "https://github.com/cadev70/svelte-tooltips"
+    },
+    {
+        "id": 6,
+        "title": { "en": "RAG Graph Server", "zh": "RAG Graph 後端" },
+        "description": {
+            "en": "A self-hosted agentic RAG platform built on LangGraph that ingests documents into a vector store and answers queries through an iterative ReAct reasoning loop, delivering citation-backed responses via a versioned REST API with optional streaming.",
+            "zh": "基於 LangGraph 的自託管智能 RAG 平台，將文件注入向量資料庫，透過 ReAct 迭代推理迴圈處理查詢，提供帶引用來源的回應，並支援版本化 REST API 與串流輸出。"
+        },
+        "category": "webapp",
+        "technologies": ["Python", "FastAPI", "LangGraph", "LangChain"],
+        "url": "https://github.com/cadev70/rag-graph-server"
+    },
+    {
+        "id": 7,
+        "title": { "en": "RAG Graph Client", "zh": "RAG Graph 前端" },
+        "description": {
+            "en": "A React chat frontend for conversing with an AI agent grounded in uploaded documents, featuring real-time streaming, session history, and document management.",
+            "zh": "基於 React 的 AI 對話前端，支援與上傳文件為基礎的 AI 代理對話，具備即時串流、歷史紀錄與文件管理功能。"
+        },
+        "category": "webapp",
+        "technologies": ["TypeScript", "React", "Tailwind CSS", "Vite", "Zustand"],
+        "url": "https://github.com/cadev70/rag-graph-client"
     }
 ]
